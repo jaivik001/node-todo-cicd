@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "jaivik001/node-todo:latest"
+    ports:
+      - "8000:8000"
